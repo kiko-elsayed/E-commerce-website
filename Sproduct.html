@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Pacifico&family=Raleway:wght@700&family=Roboto:wght@500&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+</head>
+
+<body>
+    <!------------ start header------------------- -->
+    <header class="header-Sproduct">
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="./imges/logo.png" href></a>
+            </div>
+            <ul id="navbar">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="Shop.html" class="active">Shope</a></li>
+                <li> <a href="Blog.html">Blog</a></li>
+                <li> <a href="About.html">About</a></li>
+                <li> <a href="Contact.html">Contact</a></li>
+                <li> <a href="Cart.html" id="bag"><i class="fas fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+            <div id="mobile">
+                <a href="Cart.html"><i class="fas fa-shopping-bag"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </nav>
+    </header>
+    <!------------- end header -------->
+
+    <!------------start product-info----- -->
+    <section class="product-info">
+        <div class="product-info-container">
+
+            <div class="photos">
+                <img src="./imges/products/f1.jpg" class="big-photo" id="MainImg">
+                <div class="small-photo-group">
+                    <img src="./imges/products/f1.jpg" class="small-photo" onclick="replaceImg(this)">
+                    <img src="./imges/products/f2.jpg" class="small-photo" onclick="replaceImg(this)">
+                    <img src="./imges/products/f3.jpg" class="small-photo" onclick="replaceImg(this)">
+                    <img src="./imges/products/f4.jpg" class="small-photo" onclick="replaceImg(this)">
+                </div>
+            </div>
+            
+            <div class="discreption">
+                <h4>Home / T-shirt</h4>
+                <h3>Men's Fashion T-shirt</h3>
+                <h2>$139.00</h2>
+
+                <div class="select">
+                    <select >
+                        <option>Select Size</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>lg</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+                </div>
+
+                <input type="number" value="1" min="0">
+                <button>Add To Cart</button>
+
+                <h3 class="detail">Product Details</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio corrupti 
+                    mollitia tempore natus dignissimos, soluta fuga nobis accusantium fugiat molestiae
+                    quasi cum animi deserunt quas eaque, cumque ut? Velit illum facere cumque hic 
+                    voluptatibus natus, impedit fugit culpa voluptates quibusdam at amet mollitia 
+                    ex, voluptate autem in debitis vitae deleniti consectetur delectus perferendis!
+                    Veritatis nihil dolores nobis hic eveniet aperiam laboriosam veniam. Quae 
+                    molestiae hic maxime ad. 
+                    
+                </p>
+            </div>
+        </div>
+    </section>
+    <!------------end product-info----- -->
+
+    <!------------start featured products -->
+    <section class="products">
+
+        <div class="products-container">
+            <div class="pro">
+                <img src="./imges/products/f1.jpg">
+
+                <div class="content">
+                    <span class="category">adidas</span>
+                    <p>Cartoon Astronaut T-shirts</p>
+                    <div class="stars">
+                        <div class="star-price">
+                            <span>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <h3 price="78">$78</h3>
+                        </div>
+                        <div class="add-to-car">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <img src="./imges/products/f2.jpg">
+
+                <div class="content">
+                    <span class="category">adidas</span>
+                    <p>Cartoon Astronaut T-shirts</p>
+                    <div class="stars">
+                        <div class="star-price">
+                            <span>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+
+                            <h3 price="78">$78</h3>
+                        </div>
+                        <div class="add-to-car">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <img src="./imges/products/f3.jpg">
+
+                <div class="content">
+                    <span class="category">adidas</span>
+                    <p>Cartoon Astronaut T-shirts</p>
+                    <div class="stars">
+                        <div class="star-price">
+                            <span>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+
+                            <h3 price="78">$78</h3>
+                        </div>
+                        <div class="add-to-car">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pro">
+                <img src="./imges/products/f4.jpg">
+
+                <div class="content">
+                    <span class="category">adidas</span>
+                    <p>Cartoon Astronaut T-shirts</p>
+                    <div class="stars">
+                        <div class="star-price">
+                            <span>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+
+                            <h3 price="78">$78</h3>
+                        </div>
+                        <div class="add-to-car">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!------------end featured products -->
+
+    <!---------start sign-up------------- -->
+    <div class="div-sign">
+        <div class="sign-text">
+            <h3>Sign Up For Newsletters</h3>
+            <p>Get E-mail update about our latest shop and <strong>special offers</strong></p>
+        </div>
+        <div class="sign-input">
+            <input type="email" name="sign-email" id="sign-email" placeholder="Your email address">
+            <label for="sign-email">Sign Up</label>
+        </div>
+    </div>
+    <!---------end sign-up------------- -->
+    <!-----------start footer---------- -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col1 col">
+                <img src="./imges/logo.png">
+                <h3 class="contact">Contact</h3>
+
+                <p><strong>Address:</strong> 562 Wellington Road. Street 32. San Francisco</p>
+                <p><strong>Phone:</strong> +01222365 /(+91) 123456789</p>
+                <p><strong>Hours:</strong> 10:00-18:00. Mon - Sat</p>
+
+                <h3 class="follow">Follow Us</h3>
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-col2 col">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#">About Us</a> </li>
+                    <li><a href="#">Delivery information</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a> </li>
+                    <li><a href="#">Contact Us</a> </li>
+                </ul>
+            </div>
+            <div class="footer-col2 col">
+                <h3>My Account</h3>
+                <ul>
+                    <li><a href="#">Sign In</a> </li>
+                    <li><a href="#">View Cart</a> </li>
+                    <li><a href="#">My Wishlist</a> </li>
+                    <li><a href="#">Track My Order</a> </li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+            <div class="footer-col4 col">
+                <h3>Install App</h3>
+                <div>
+                    <p>From App Store or Google Play</p>
+                    <ul>
+                        <li><img src="./imges/pay/app.jpg"></li>
+                        <li><img src="./imges/pay/play.jpg"></li>
+                    </ul>
+                    <p>Secured Payment Gateways</p>
+                    <img src="./imges/pay/pay.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&#169; 2021. Tech2 etc - HTML CSS E-commerce Template</p>
+        </div>
+
+    </footer>
+    <!-----------end footer---------- -->
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
